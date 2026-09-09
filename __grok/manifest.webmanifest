@@ -1,12 +1,12 @@
 {
-  "name": "Grok App",
-  "short_name": "Grok App",
+  "name": "Moonlight Container Homes",
+  "short_name": "Container Homes",
   "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#0f1922",
+  "theme_color": "#2c5854",
   "icons": [
     {
       "src": "/__grok/icon-180.png",

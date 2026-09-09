@@ -1,9 +1,8 @@
-# Moonlight Bay Container Homes
+# Moonlight Container Homes
 
-The original furnished two-level container-villa studio (V2 / V3 walkthrough, gate row, canal lots 103–114).
+Exact copy of the original furnished container-villa studio:
+https://flora-willow-branch-ember.grok.me
 
 Live: https://moonlightbaycontainerhomes.vercel.app
 
-Original published studio: https://flora-willow-branch-ember.grok.me
-
-Sister line (unfurnished wood / Plett): https://moonlightbaywoodhomes.vercel.app
+Sister line (unfurnished wood): https://moonlightbaywoodhomes.vercel.app
