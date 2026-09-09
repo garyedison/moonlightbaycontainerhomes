@@ -1,11 +1,4 @@
-node_modules/
-.project_id
-.github_repo
-.env
-.env.*
-.vercel/
-screenshots/
-artifacts/
-AGENTS.md
-.grok/*
-!.grok/app-env.json
+node_modules
+dist
+.vercel
+.DS_Store

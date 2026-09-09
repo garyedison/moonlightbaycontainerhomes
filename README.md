@@ -1,11 +1,9 @@
 # Moonlight Bay Container Homes
 
-Furnished two-level container villas at Moonlight Bay de Consejo, Corozal, Belize.
+The original furnished two-level container-villa studio (V2 / V3 walkthrough, gate row, canal lots 103–114).
 
-Live: [moonlightbaycontainerhomes.vercel.app](https://moonlightbaycontainerhomes.vercel.app)
+Live: https://moonlightbaycontainerhomes.vercel.app
 
-Factory-fitted Caribbean Salt furniture and MEP kit. Skins and decks change. The kit does not. Furnished from **$180k to $250k**.
+Original published studio: https://flora-willow-branch-ember.grok.me
 
-Sister line (unfurnished wood / Plett): [moonlightbaywoodhomes.vercel.app](https://moonlightbaywoodhomes.vercel.app)
-
-Concept only. Confirm lots with the developer.
+Sister line (unfurnished wood / Plett): https://moonlightbaywoodhomes.vercel.app
