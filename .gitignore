@@ -3,3 +3,9 @@ node_modules/
 .github_repo
 .env
 .env.*
+.vercel/
+screenshots/
+artifacts/
+AGENTS.md
+.grok/*
+!.grok/app-env.json

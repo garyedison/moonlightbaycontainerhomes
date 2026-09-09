@@ -56,7 +56,7 @@ export function Studio() {
             className="text-left"
           >
             <p className="font-display text-lg leading-none tracking-tight">
-              Moonlight Bay
+              Moonlight Bay Container Homes
             </p>
             <p className="mt-1 text-[11px] uppercase tracking-[0.18em] text-muted">
               Consejo · Belize
@@ -158,9 +158,18 @@ export function Studio() {
       </main>
 
       <footer className="border-t border-line px-4 py-10 text-sm text-muted">
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 md:flex-row md:justify-between">
-          <p>Moonlight Bay de Consejo · Corozal District, Belize</p>
-          <p>Concept only. Not for permit or fabrication. Confirm lots with the developer.</p>
+        <div className="mx-auto flex max-w-6xl flex-col gap-3 md:flex-row md:items-start md:justify-between">
+          <div>
+            <p>Moonlight Bay Container Homes · Consejo, Belize</p>
+            <p className="mt-1">Furnished factory villas. Concept only. Confirm lots with the developer.</p>
+          </div>
+          <a
+            href="https://moonlightbaywoodhomes.vercel.app"
+            className="inline-flex items-center gap-1 text-lagoon"
+          >
+            Unfurnished wood homes at moonlightbaywoodhomes
+            <ArrowUpRight size={14} />
+          </a>
         </div>
       </footer>
     </div>
@@ -179,7 +188,7 @@ function HomeView({ go }: { go: (v: View) => void }) {
         <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/25 to-ink/10" />
         <div className="relative mx-auto flex min-h-[78vh] max-w-6xl flex-col justify-end px-4 pb-14 pt-28">
           <p className="text-xs uppercase tracking-[0.22em] text-foam/80">
-            Beach · Canal · Gate · Value
+            Furnished container villas · Consejo
           </p>
           <h1 className="mt-3 max-w-3xl font-display text-4xl leading-[1.05] text-foam sm:text-6xl">
             Furnished homes from $180k to $250k, on every kind of lot.
