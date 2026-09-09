@@ -182,7 +182,7 @@ function HomeView({ go }: { go: (v: View) => void }) {
       <section className="relative min-h-[78vh] overflow-hidden">
         <img
           src="/homes/villa-beach.jpg"
-          alt="Two-level salt-white villa on the beach"
+          alt="Two-level shipping-container villa on the beach"
           className="absolute inset-0 size-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/25 to-ink/10" />
@@ -204,7 +204,7 @@ function HomeView({ go }: { go: (v: View) => void }) {
         {[
           { id: "beach" as const, img: "/homes/villa-beach.jpg", t: "Beach", d: "Bay-front villas and 20×40 homes on 196–199." },
           { id: "canal" as const, img: "/homes/villa-canal.jpg", t: "Canal", d: "Waterway lots with kayak steps down a 5 ft bank." },
-          { id: "gate" as const, img: "/homes/aerial-gate.jpg", t: "Gate", d: "Moderate cottages just inside the entrance." },
+          { id: "gate" as const, img: "/homes/aerial-gate.jpg", t: "Gate", d: "Moderate villas just inside the entrance." },
           { id: "value" as const, img: "/homes/aerial-canal.jpg", t: "Canal value", d: "Lots 103–114, furthest from the ocean." },
         ].map((c) => (
           <button
@@ -237,7 +237,7 @@ function VillaNote({ siting }: { siting: "beach" | "canal" }) {
       <p className="mt-2 text-sm text-muted">
         Four 40 ft high-cubes, about 1,057 sq ft. V2 two-bed keeps the canal or
         bay end as a dining lounge. V3 closes it as a guest suite. Same
-        Caribbean Salt kit as the cottages.
+        Same Caribbean Salt kit as every villa.
       </p>
     </aside>
   );
@@ -421,9 +421,10 @@ function LivingView() {
         baths, millwork and lighting go in at the factory. Loose pieces pack in
         the module so island labor stays light.
       </p>
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        <img src="/homes/interior-living.jpg" alt="Living room" className="h-72 w-full rounded-xl object-cover" />
-        <img src="/homes/interior-bedroom.jpg" alt="Bedroom" className="h-72 w-full rounded-xl object-cover" />
+      <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <img src="/homes/interior-living.jpg" alt="Furnished living room" className="h-72 w-full rounded-xl object-cover" />
+        <img src="/homes/interior-bedroom.jpg" alt="Furnished bedroom" className="h-72 w-full rounded-xl object-cover" />
+        <img src="/homes/interior-sage.jpg" alt="Furnished sage loft" className="h-72 w-full rounded-xl object-cover" />
       </div>
       <div className="mt-8 grid grid-cols-3 gap-3 sm:grid-cols-6">
         {PALETTE.map((c) => (
